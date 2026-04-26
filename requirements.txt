@@ -1,8 +1,7 @@
-# requirements.txt  –  pip install -r requirements.txt --break-system-packages
 flask
 flask-cors
-deepface
-opencv-python
+deepface==0.0.93
+opencv-python-headless
 numpy
-tf-keras         # or tensorflow; deepface needs one of these
-Pillow
+tensorflow-cpu==2.13.0
+gunicorn
